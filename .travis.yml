@@ -1,0 +1,15 @@
+language: ruby
+sudo: false
+cache: bundler
+script: bundle exec rake test
+rvm:
+  - 2.3.1
+matrix:
+  global:
+    - BUNDLE_JOBS=4
+before_install:
+  - bundle install --retry=3
+before_update:
+  - bundle update
+notifications:
+  email: false
