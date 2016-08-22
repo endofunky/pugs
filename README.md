@@ -9,7 +9,7 @@
 Add this line to your application's Gemfile:
 
 ``` ruby
-gem pugs'
+gem 'pugs'
 ```
 
 And then execute:
