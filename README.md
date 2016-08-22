@@ -1,5 +1,7 @@
 # Pugs
 
+[![Build Status](https://travis-ci.org/endofunky/pugs.svg?branch=master)](https://travis-ci.org/endofunky/pugs)
+
 > In Ruby `pugs "thing"` should output "🐕 things" to stdout
 
 - *Schneems (https://twitter.com/schneems/status/767795350564245504)*
